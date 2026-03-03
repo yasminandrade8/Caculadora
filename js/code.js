@@ -10,7 +10,7 @@ window.AC = function() {
     display.value = '';
 };
 
-window.Limpar = function() {
+window.C = function() {
     display.value = display.value.slice(0, -1);
 };
 
@@ -33,4 +33,5 @@ window.calculate = function() {
         const numeros = expressao.split('%');
         display.value = resto(Number(numeros[0]), Number(numeros[1]));
     }
+
 };
